@@ -52,9 +52,9 @@ img {
     text-align: center;
 }
 
-/* .box { 
-    
-} */
+.box { 
+    height: 70px;
+}
 
 button { 
     background-color: #e92e3d;

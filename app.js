@@ -24,7 +24,7 @@ document.getElementById("roll").addEventListener("click", () => {
     // Insert dice image
     document.querySelectorAll('img')[0].setAttribute('src', diceImage);
     let score = User1Total += diceRolled;
-    document.getElementById("score").innerHTML = score       
+    document.getElementById("score").innerHTML = `Score: ${score}`   
 
 
     // Create win/lose scenario 
